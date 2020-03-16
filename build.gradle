@@ -1,0 +1,15 @@
+plugins {
+    id 'scala'
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.scala-lang:scala-library:2.13.1'
+
+    implementation group: 'org.typelevel', name: 'cats-effect_2.13', version: '2.0.0'
+    implementation group: 'org.typelevel', name: 'cats-core_2.13', version: '2.1.0'
+}
