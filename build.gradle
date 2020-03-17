@@ -7,8 +7,13 @@ repositories {
     mavenCentral()
 }
 
+ext {
+    scalaVersion = '2.13.1'
+}
+
 dependencies {
-    implementation 'org.scala-lang:scala-library:2.13.1'
+    implementation "org.scala-lang:scala-library:$scalaVersion"
+    implementation "org.scala-lang:scala-reflect:$scalaVersion"
 
     implementation group: 'org.typelevel', name: 'cats-effect_2.13', version: '2.0.0'
     implementation group: 'org.typelevel', name: 'cats-core_2.13', version: '2.1.0'
