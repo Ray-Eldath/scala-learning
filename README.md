@@ -1,4 +1,4 @@
-## scala-learning
+# scala-learning
 
 This project is consisted of my written experiments during I learn Scala, especially wage through *Programming Scala (Second Edition)*. Some code is directly derived from the book while the majority is not.
 
