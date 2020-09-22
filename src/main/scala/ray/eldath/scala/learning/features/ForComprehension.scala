@@ -5,7 +5,7 @@ object ForComprehension {
   import Pipeline._
 
   def main(args: Array[String]): Unit = {
-    val names = List("Eay Eldath", "ice1000", "himself65", "phosphorous15", "LemonHX")
+    val names = List("Ray Eldath", "ice1000", "himself65", "phosphorous15", "LemonHX")
 
     (for {
       s <- names
